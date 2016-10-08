@@ -11,14 +11,26 @@ namespace Lab1.NETtest
     {
         public ProjectTest()
         {
-          
+
         }
-        
+
         [TestMethod]
         public void given_Class_Product()
         {
             Product product = new Product();
-            Assert(product);
+            //Assert(product);
+        }
+
+        [TestMethod]
+        public void when_class_Product()
+        {
+
+        }
+
+        [TestMethod]
+        public void then_class_Product()
+        {
+
         }
     }
 }
