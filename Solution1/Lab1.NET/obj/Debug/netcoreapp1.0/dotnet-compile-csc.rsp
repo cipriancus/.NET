@@ -8,8 +8,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\Ciprian\documents\visual studio 2015\Projects\Solution1\Lab1.NET\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\Ciprian\documents\visual studio 2015\Projects\Solution1\Lab1.NET\bin\Debug\netcoreapp1.0\Lab1.NET.dll"
+"C:\Users\Ciprian\Documents\GitHub\.NET\Solution1\Lab1.NET\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\Ciprian\Documents\GitHub\.NET\Solution1\Lab1.NET\bin\Debug\netcoreapp1.0\Lab1.NET.dll"
 -r:"C:\Users\Ciprian\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
 -r:"C:\Users\Ciprian\.nuget\packages\System.AppContext\4.1.0\ref\netstandard1.6\System.AppContext.dll"
 -r:"C:\Users\Ciprian\.nuget\packages\System.Collections\4.0.11\ref\netstandard1.3\System.Collections.dll"
@@ -53,5 +53,8 @@
 -r:"C:\Users\Ciprian\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Ciprian\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Ciprian\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
-"C:\Users\Ciprian\documents\visual studio 2015\Projects\Solution1\Lab1.NET\Product.cs"
-"C:\Users\Ciprian\documents\visual studio 2015\Projects\Solution1\Lab1.NET\Properties\AssemblyInfo.cs"
+"C:\Users\Ciprian\Documents\GitHub\.NET\Solution1\Lab1.NET\Architect.cs"
+"C:\Users\Ciprian\Documents\GitHub\.NET\Solution1\Lab1.NET\Employee.cs"
+"C:\Users\Ciprian\Documents\GitHub\.NET\Solution1\Lab1.NET\Manager.cs"
+"C:\Users\Ciprian\Documents\GitHub\.NET\Solution1\Lab1.NET\Product.cs"
+"C:\Users\Ciprian\Documents\GitHub\.NET\Solution1\Lab1.NET\Properties\AssemblyInfo.cs"
