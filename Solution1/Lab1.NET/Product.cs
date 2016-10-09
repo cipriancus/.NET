@@ -1,49 +1,52 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Lab1.NET
 {
     public class Product
     {
-        public int id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public Product(string name, string description, DateTime startDate, double price, int vat)
+        {
+            Id = Guid.NewGuid();
+            Name = name;
+            Description = description;
+            StartDate = startDate;
+            EndDate = DateTime.MinValue;
+            Price = price;
+            Vat = vat;
+        }
+
+        public Guid Id { get; private set; }
+
+        public string Name { get; private set; }
+
+        public string Description { get; private set; }
+
         public DateTime StartDate { get; private set; }
+
         public DateTime EndDate { get; private set; }
-        public double Price { get; set; }
-        public int VAT { get; set; }
 
-        public bool isValid()
+        public double Price { get; private set; }
+
+        public int Vat { get; private set; }
+
+        public bool IsValid()
         {
-            if (DateTime.Now<EndDate)
-                return true;
-            return false;
+            return EndDate.Subtract(StartDate).Seconds <= 0;
         }
 
-        public double computeVAT()
+        public double ComputeVat()
         {
-            return (Price * VAT) / 100;
+            return Price * Vat / 100;
         }
 
-        public Boolean setEndDate(DateTime EndDate)
+        public void SetValability(DateTime endDate)
         {
-            if (EndDate < StartDate)
-                return false;
+            if (endDate < StartDate)
+            {
+                throw new ArgumentException("EndDate should be greater then StartDate");
+            }
 
-            this.EndDate = EndDate;
-            return true;
+            EndDate = endDate;
         }
-
-        public Boolean setStartDate(DateTime StartDate)
-        {
-            if (EndDate < StartDate)
-                return false;
-
-            this.StartDate  = StartDate;
-            return true;
-        }
-
     }
 }
