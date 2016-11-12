@@ -1,0 +1,158 @@
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\ApplicationInsights.config
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\csc.exe
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\System.Collections.Immutable.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\vbc.exe
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\VBCSCompiler.exe
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\roslyn\VBCSCompiler.exe.config
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\WebFormsProject.dll.config
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\WebFormsProject.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\WebFormsProject.pdb
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Antlr3.Runtime.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\AspNet.ScriptManager.bootstrap.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\AspNet.ScriptManager.jQuery.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\EntityFramework.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\EntityFramework.SqlServer.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.Web.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.WindowsServer.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.ApplicationInsights.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.Google.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.ScriptManager.WebForms.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Newtonsoft.Json.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Owin.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\System.Web.Optimization.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\System.Web.Providers.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\WebGrease.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.Web.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AI.WindowsServer.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.ApplicationInsights.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\System.Web.Optimization.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Antlr3.Runtime.pdb
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Newtonsoft.Json.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\EntityFramework.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\EntityFramework.SqlServer.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\System.Web.Providers.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.Google.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\obj\Debug\WebFormsProject.csprojResolveAssemblyReference.cache
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\obj\Debug\WebFormsProject.dll
+C:\.net core\Course 6\WebFormsProject\WebFormsProject\obj\Debug\WebFormsProject.pdb
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\ApplicationInsights.config
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\csc.exe
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\vbc.exe
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\WebFormsProject.dll.config
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\WebFormsProject.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\WebFormsProject.pdb
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Antlr3.Runtime.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\EntityFramework.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.Web.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Newtonsoft.Json.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Owin.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\System.Web.Optimization.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\System.Web.Providers.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\WebGrease.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.Web.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\System.Web.Optimization.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Antlr3.Runtime.pdb
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Newtonsoft.Json.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\EntityFramework.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\System.Web.Providers.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\obj\Debug\WebFormsProject.csprojResolveAssemblyReference.cache
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\obj\Debug\WebFormsProject.dll
+C:\Users\Ciprian\Documents\GitHub\.NET\WebFormsProjectLab6\WebFormsProject\obj\Debug\WebFormsProject.pdb
