@@ -20,7 +20,7 @@ namespace Lab2.NETTest
             Action action=()=> emp = new EmployeeRepository(createSUTLIst(5));
             action.ShouldThrow<Exception>();
         }
-
+         
 
         //employee with more than 10 members not throw exception
         [TestMethod]
