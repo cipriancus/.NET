@@ -214,4 +214,5 @@
 --reference:C:\Users\Ciprian\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll
 --reference:C:\Users\Ciprian\Documents\GitHub\.NET\FullWebProjectLab7\src\FullWebProject\bin\Debug\netcoreapp1.0\FullWebProject.dll
 C:\Users\Ciprian\Documents\GitHub\.NET\FullWebProjectLab7\src\TestingProject\MathTest.cs
+C:\Users\Ciprian\Documents\GitHub\.NET\FullWebProjectLab7\src\TestingProject\TextTest.cs
 C:\Users\Ciprian\Documents\GitHub\.NET\FullWebProjectLab7\src\TestingProject\Properties\AssemblyInfo.cs

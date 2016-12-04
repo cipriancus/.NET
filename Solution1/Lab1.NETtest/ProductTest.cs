@@ -57,7 +57,7 @@ namespace Lab1.NETtest
         }
 
         [TestMethod]
-        public void When_ProductIsInstanciatedWithEndDateSmallerThenStartDate_Then_ShouldThrowException()
+        public void When_ProductIsInstanciatedWithEndDateSmallerThanStartDate_Then_ShouldThrowException()
         {
             Product product = new Product("Apple", "green apple", DateTime.Now, 20, 25);
 
