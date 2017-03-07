@@ -18,7 +18,6 @@ namespace onlineGrades.Infrastructure.Repository
             _entities.Profesori.Add(entity);
         }
 
-
         Profesor IProfesorRepository.getProfesorById(Guid id)
         {
             return FindBy(e => e.ProfesorId == id).FirstOrDefault();

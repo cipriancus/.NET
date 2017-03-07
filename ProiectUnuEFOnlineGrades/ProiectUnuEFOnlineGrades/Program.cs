@@ -109,7 +109,6 @@ namespace ProiectUnuEFOnlineGrades
             Console.WriteLine("---------------REGISTER PROFESORI----------------");
             ciortuz = (Profesor)loginbusiness.verifyLogin("ciortuz.liviu", "ana");
             Console.WriteLine("Login Liviu Ciortuz "); Console.WriteLine(ciortuz.Username + " " + ciortuz.Password);
-
             //-----------------------------------------CREARE CURS ---------------------------------------------------
             Curs machineLearning = new Curs();
             machineLearning.Nume = "Machine Learning";
@@ -138,7 +137,7 @@ namespace ProiectUnuEFOnlineGrades
             ai.Profesor.Add(ciortuz);
             cursRepository.Edit(ai);
             cursRepository.Save();
-            //--------------------------------------------------------------------------------------------------------
+            //-----------------------------------------------------------------------------------------------------------
 
 
 
@@ -162,43 +161,50 @@ namespace ProiectUnuEFOnlineGrades
             Nota AICusmuliuc = new Nota();
             Nota AICernescu = new Nota();
 
-            MLCusmuliuc.Categorie = examen;
-            MLCusmuliuc.Curs = machineLearning;
-            MLCusmuliuc.Student = ciprian;
+            MLCusmuliuc.Categorie = categrepo.getCategoryById(examen.CategorieId);
+            MLCusmuliuc.Curs = cursRepository.getCursById(machineLearning.CursId);
+            MLCusmuliuc.Student = studrepo.getStudentById(ciprian.StudentId);
+            MLCusmuliuc.Valoare = 2;
 
-            MLCernescu.Curs = machineLearning;
-            MLCernescu.Student = stefan;
+            MLCernescu.Curs = cursRepository.getCursById(machineLearning.CursId);
+            MLCernescu.Student = studrepo.getStudentById(stefan.StudentId);
             MLCernescu.Valoare = 2;
-            MLCernescu.Categorie = examen;
+            MLCernescu.Categorie = categrepo.getCategoryById(examen.CategorieId);
 
-            MLPopovici.Curs = machineLearning;
-            MLPopovici.Student = sebastian;
+            MLPopovici.Curs = cursRepository.getCursById(machineLearning.CursId);
+            MLPopovici.Student = studrepo.getStudentById(sebastian.StudentId);
             MLPopovici.Valoare = 2;
-            MLPopovici.Categorie = examen;
+            MLPopovici.Categorie = categrepo.getCategoryById(examen.CategorieId);
 
-            AICusmuliuc.Categorie = examen;
-            AICusmuliuc.Curs = machineLearning;
-            AICusmuliuc.Student = ciprian;
+            AICusmuliuc.Categorie = categrepo.getCategoryById(examen.CategorieId);
+            AICusmuliuc.Curs = cursRepository.getCursById(ai.CursId);
+            AICusmuliuc.Valoare = 2;
+            AICusmuliuc.Student = studrepo.getStudentById(ciprian.StudentId);
 
-            AICernescu.Curs = machineLearning;
-            AICernescu.Student = stefan;
+            AICernescu.Curs = cursRepository.getCursById(ai.CursId);
+            AICernescu.Student = studrepo.getStudentById(stefan.StudentId);
             AICernescu.Valoare = 2;
-            AICernescu.Categorie = examen;
+            AICernescu.Categorie = categrepo.getCategoryById(examen.CategorieId);
 
-            AIPopovici.Curs = machineLearning;
-            AIPopovici.Student = sebastian;
+            AIPopovici.Curs = cursRepository.getCursById(ai.CursId);
+            AIPopovici.Student = studrepo.getStudentById(sebastian.StudentId);
             AIPopovici.Valoare = 2;
-            AIPopovici.Categorie = examen;
+            AIPopovici.Categorie = categrepo.getCategoryById(examen.CategorieId);
 
-            examen.Note.Add(MLCusmuliuc);
-            examen.Note.Add(MLCernescu);
-            examen.Note.Add(MLPopovici);
+            machineLearning.Note.Add(MLCusmuliuc);
+            machineLearning.Note.Add(MLCernescu);
+            machineLearning.Note.Add(MLPopovici);
 
-            examen.Note.Add(AIPopovici);
-            examen.Note.Add(AICernescu);
-            examen.Note.Add(AICusmuliuc);
-            categrepo.Edit(examen);
-            categrepo.Save();
+            ai.Note.Add(AIPopovici);
+            ai.Note.Add(AICernescu);
+            ai.Note.Add(AICusmuliuc);
+
+            //notele se adauga la curs
+            cursRepository.Edit(machineLearning);
+            cursRepository.Save();
+
+            cursRepository.Edit(ai);
+            cursRepository.Save();
 
             Console.ReadKey();
         }

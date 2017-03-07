@@ -34,7 +34,8 @@ namespace onlineGrades.Infrastructure.Repository
                 {
                     _entities.Categorii.Attach(it.Categorie);
                     _entities.Studenti.Attach(it.Student);
-                    _entities.Note.Attach(it);
+
+                   
                 }
 
                 foreach (Curs it in iterator.Curs)

@@ -16,10 +16,21 @@ namespace onlineGrades.Infrastructure.Repository
         public override void Add(Student entity)
         {
             _entities.Studenti.Add(entity);
+            attach(entity);
         }
 
+        public override void Edit(Student entity)
+        {
+            base.Edit(entity);
+            attach(entity);
+        }
 
-        Student IStudentRepository.getStudentByEmail(string email)
+        private void attach(Student entity)
+        {
+
+        }
+
+            Student IStudentRepository.getStudentByEmail(string email)
         {
             return FindBy(e => e.Email == email).FirstOrDefault();
         }

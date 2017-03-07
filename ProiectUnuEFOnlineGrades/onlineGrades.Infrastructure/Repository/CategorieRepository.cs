@@ -32,11 +32,46 @@ namespace onlineGrades.Infrastructure.Repository
 
         private void attach(Categorie entity)
         {
-            foreach (Nota iterator in entity.Note)
+            foreach (Nota iterator2 in entity.Note)
             {
-                _entities.Note.Attach(iterator);
-                _entities.Cursuri.Attach(iterator.Curs);
-                _entities.Studenti.Attach(iterator.Student);
+                _entities.Note.Attach(iterator2);
+                _entities.Cursuri.Attach(iterator2.Curs);
+
+                foreach (Student iterator3 in iterator2.Curs.Student)
+                    {
+                        _entities.Studenti.Attach(iterator3);
+
+                        foreach (Nota it in iterator3.Nota)
+                        {
+                            _entities.Categorii.Attach(it.Categorie);
+                            _entities.Studenti.Attach(it.Student);
+                            _entities.Note.Attach(it);
+                        }
+
+                        foreach (Curs it in iterator3.Curs)
+                        {
+                            _entities.Cursuri.Attach(it);
+
+                        }
+
+                    }
+
+                    foreach (Profesor iterator3 in iterator2.Curs.Profesor)
+                    {
+                        _entities.Profesori.Attach(iterator3);
+
+                        foreach (Curs it in iterator3.Curs)
+                        {
+                            _entities.Cursuri.Attach(it);
+
+                        foreach(Profesor it2 in it.Profesor)
+                        {
+                            _entities.Profesori.Attach(it2);
+                        }
+
+                    }
+                }
+                _entities.Studenti.Attach(iterator2.Student);
             }
         }
 
