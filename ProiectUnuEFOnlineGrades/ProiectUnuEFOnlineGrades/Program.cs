@@ -199,13 +199,22 @@ namespace ProiectUnuEFOnlineGrades
             ai.Note.Add(AICernescu);
             ai.Note.Add(AICusmuliuc);
 
-            //notele se adauga la curs
             cursRepository.Edit(machineLearning);
             cursRepository.Save();
 
             cursRepository.Edit(ai);
             cursRepository.Save();
 
+            //-----------------------------------------------------------------------
+            Console.WriteLine("--------------CATEGORIE----------------");
+            examen = categrepo.getCategoryById(examen.CategorieId);
+            Console.WriteLine(examen.Nume);
+            foreach(Nota iterator in examen.Note)
+            {
+                Console.WriteLine(iterator.Curs.Nume);
+                Console.WriteLine(iterator.Student.Nume + " " + iterator.Student.Prenume);
+                Console.WriteLine(iterator.Valoare);
+            }
             Console.ReadKey();
         }
     }
