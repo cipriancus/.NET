@@ -7,13 +7,13 @@ namespace onlineGrades.Infrastructure.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class change : IMigrationMetadata
+    public sealed partial class userId : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(change));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(userId));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703061530580_change"; }
+            get { return "201703201911005_userId"; }
         }
         
         string IMigrationMetadata.Source

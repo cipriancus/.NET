@@ -1,14 +1,16 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace onlineGrades.Core.Entity
 {
-    public class Student : User
+    [DataContract(IsReference = true)]
+
+    public partial class Student : User
     {
         public Student()
         {
-            this.StudentId = Guid.NewGuid();
             Nota = new HashSet<Nota>();
             Curs = new HashSet<Curs>();
         }
@@ -18,10 +20,8 @@ namespace onlineGrades.Core.Entity
             Curs = new HashSet<Curs>();
         }
 
-        [Key]
         [Required]
-        public Guid StudentId { get; set; }
-        [Required]
+        [DataMember]
         public int AnUniversitar { get; set; }
 
         public virtual ICollection<Nota> Nota { get; set; }// mapat ca one to many

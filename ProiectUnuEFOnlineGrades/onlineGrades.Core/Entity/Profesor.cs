@@ -3,24 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 
 namespace onlineGrades.Core.Entity
 {
-    public class Profesor:User
+    [DataContract(IsReference = true)]
+
+    public partial class Profesor:User
     {
-        public Profesor()
-        {
-            this.ProfesorId = Guid.NewGuid();
+        public Profesor() { 
             Curs = new HashSet<Curs>();
         }
         public Profesor(User user):base(user)
         {
             Curs = new HashSet<Curs>();
         }
-        [Key]
-        [Required]
-        public Guid ProfesorId { get; set; }
-      
+
         public virtual ICollection<Curs> Curs { get; set; }//mapat ca many to many
     }
 }

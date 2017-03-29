@@ -20,7 +20,7 @@ namespace onlineGrades.Infrastructure.Repository
 
         Profesor IProfesorRepository.getProfesorById(Guid id)
         {
-            return FindBy(e => e.ProfesorId == id).FirstOrDefault();
+            return FindBy(e => e.userId == id).FirstOrDefault();
         }
 
         Profesor IProfesorRepository.getProfesorByUsername(string username)

@@ -5,9 +5,10 @@ namespace onlineGrades.Core.Configuration.EF_Configuration
 {
     public class DataBaseManagement : DbContext
     {
-        public DataBaseManagement() : base("myConn")
+        public DataBaseManagement()
         {
-
+            Configuration.LazyLoadingEnabled = false;
+            Configuration.ProxyCreationEnabled = false;
         }
 
         public DbSet<Categorie> Categorii { get; set; }
@@ -19,6 +20,7 @@ namespace onlineGrades.Core.Configuration.EF_Configuration
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
         }
     }
 }

@@ -163,31 +163,31 @@ namespace ProiectUnuEFOnlineGrades
 
             MLCusmuliuc.Categorie = categrepo.getCategoryById(examen.CategorieId);
             MLCusmuliuc.Curs = cursRepository.getCursById(machineLearning.CursId);
-            MLCusmuliuc.Student = studrepo.getStudentById(ciprian.StudentId);
+            MLCusmuliuc.Student = studrepo.getStudentById(ciprian.userId);
             MLCusmuliuc.Valoare = 2;
 
             MLCernescu.Curs = cursRepository.getCursById(machineLearning.CursId);
-            MLCernescu.Student = studrepo.getStudentById(stefan.StudentId);
+            MLCernescu.Student = studrepo.getStudentById(stefan.userId);
             MLCernescu.Valoare = 2;
             MLCernescu.Categorie = categrepo.getCategoryById(examen.CategorieId);
 
             MLPopovici.Curs = cursRepository.getCursById(machineLearning.CursId);
-            MLPopovici.Student = studrepo.getStudentById(sebastian.StudentId);
+            MLPopovici.Student = studrepo.getStudentById(sebastian.userId);
             MLPopovici.Valoare = 2;
             MLPopovici.Categorie = categrepo.getCategoryById(examen.CategorieId);
 
             AICusmuliuc.Categorie = categrepo.getCategoryById(examen.CategorieId);
             AICusmuliuc.Curs = cursRepository.getCursById(ai.CursId);
             AICusmuliuc.Valoare = 2;
-            AICusmuliuc.Student = studrepo.getStudentById(ciprian.StudentId);
+            AICusmuliuc.Student = studrepo.getStudentById(ciprian.userId);
 
             AICernescu.Curs = cursRepository.getCursById(ai.CursId);
-            AICernescu.Student = studrepo.getStudentById(stefan.StudentId);
+            AICernescu.Student = studrepo.getStudentById(stefan.userId);
             AICernescu.Valoare = 2;
             AICernescu.Categorie = categrepo.getCategoryById(examen.CategorieId);
 
             AIPopovici.Curs = cursRepository.getCursById(ai.CursId);
-            AIPopovici.Student = studrepo.getStudentById(sebastian.StudentId);
+            AIPopovici.Student = studrepo.getStudentById(sebastian.userId);
             AIPopovici.Valoare = 2;
             AIPopovici.Categorie = categrepo.getCategoryById(examen.CategorieId);
 

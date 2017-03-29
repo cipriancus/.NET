@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
-
+using System.Runtime.Serialization;
 
 namespace onlineGrades.Core.Entity
 {
-    public class Curs
+    [DataContract(IsReference = true)]
+    public partial class Curs
     {
         public Curs()
         {
@@ -18,11 +19,14 @@ namespace onlineGrades.Core.Entity
         }
         [Key]
         [Required]
+        [DataMember]
         public Guid CursId { get; set; }
         [Required]
         [StringLength(50)]
+        [DataMember]
         public string Nume { get; set; }
         [Required]
+        [DataMember]
         public int Credite { get; set; }
 
         public virtual ICollection<Student> Student { get; set; }//mapat ca many to many

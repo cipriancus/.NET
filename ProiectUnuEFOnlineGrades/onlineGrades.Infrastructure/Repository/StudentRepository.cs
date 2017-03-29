@@ -37,7 +37,7 @@ namespace onlineGrades.Infrastructure.Repository
 
         Student IStudentRepository.getStudentById(Guid id)
         {
-            return FindBy(e => e.StudentId == id).FirstOrDefault();
+            return FindBy(e => e.userId == id).FirstOrDefault();
         }
 
         Student IStudentRepository.getStudentByRegisterUUID(Guid id)

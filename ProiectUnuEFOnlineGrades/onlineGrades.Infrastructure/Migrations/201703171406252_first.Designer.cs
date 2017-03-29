@@ -13,7 +13,7 @@ namespace onlineGrades.Infrastructure.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201703051846307_first"; }
+            get { return "201703171406252_first"; }
         }
         
         string IMigrationMetadata.Source
