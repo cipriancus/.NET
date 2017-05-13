@@ -65,6 +65,7 @@
     <Compile Include="Repository Interfaces\INotaRepository.cs" />
     <Compile Include="Repository Interfaces\IProfesorRepository.cs" />
     <Compile Include="Repository Interfaces\IStudentRepository.cs" />
+    <Compile Include="Session Data\SessionData.cs" />
     <Compile Include="Utility\Criptography.cs" />
   </ItemGroup>
   <ItemGroup>

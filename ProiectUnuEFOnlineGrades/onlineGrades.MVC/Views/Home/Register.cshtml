@@ -1,0 +1,150 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Username"] = "Username*";
+    ViewData["Password"] = "Password*";
+    ViewData["Re-Password"] = "Re-Password*";
+    ViewData["Nume"] = "Nume*";
+    ViewData["Prenume"] = "Prenume*";
+    ViewData["InitialaTata"] = "Initiala Tata*";
+    ViewData["Email"] = "Email*";
+    ViewData["DataNasterii"] = "Data nasterii*";
+    ViewData["Mama"] = "Mama*";
+    ViewData["Tata"] = "Tata*";
+    ViewData["Nationalitate"] = "Nationalitate*";
+    ViewData["Cetatenie"] = "Cetatenie*";
+}
+<div class="container-fluid">
+    <div class="content-page autentificare">
+        @model onlineGrades.MVC.Models.RegisterViewModel
+        <div class="text-center">
+            <form class="form-horizontal" asp-controller="Register" asp-action="Register" method="post">
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Username"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Username" type="text" required autofocus placeholder="Introduceti numele de autentificare">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Password"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Password" type="password" required autofocus placeholder="Introduceti parola">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Re-Password"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Re_Password" type="password" required autofocus placeholder="Confirmati parola">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Nume"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Nume" type="text" required autofocus placeholder="Introduceti Numele">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Prenume"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Prenume" type="text" required autofocus placeholder="Introduceti prenumele">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["InitialaTata"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="InitialaTata" type="text" required autofocus placeholder="Introduceti InitialaTata">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Email"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Email" type="email" required autofocus placeholder="Introduceti Emailul">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["DataNasterii"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="DataNasterii" type="date" required autofocus placeholder="Introduceti DataNasterii">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Mama"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Mama" type="text" required autofocus placeholder="Introduceti Prenumele Mamei">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Tata"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Tata" type="text" required autofocus placeholder="Introduceti Prenumele Tatalui">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Nationalitate"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Nationalitate" type="text" required autofocus placeholder="Introduceti Nationalitatea">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">@ViewData["Cetatenie"]:</label>
+                            <div class="col-md-8">
+                                <input class="form-control" asp-for="Cetatenie" type="text" required autofocus placeholder="Introduceti Catetenia">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4"></div>
+                    <div class="col-sm-4 col-lg-4">
+                        <select asp-for="TipCont">
+                            <option value="student">Student</option>
+                            <option value="profesor">Profesor</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4 col=lg-4"></div>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4"></div>
+                    <div class="col-sm-4 col-lg-4">
+                        <button class="buton" type="submit">Continuă</button>
+                    </div>
+                    <div class="col-sm-4 col=lg-4">
+                        * = toate campurile sunt obligatorii
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

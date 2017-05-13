@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Autentificare";
+    ViewData["Username"] = "Cont ";
+    ViewData["Password"] = "Parola";
+}
+
+
+<div class="content-page autentificare">
+    <div class="autentificare-titlu">Autentificare</div>
+
+    @model FormsTagHelper.ViewModels.LoginViewModel
+    <center>
+        <form class="form-login" asp-controller="Login" asp-action="LoginUser" method="post">
+            <span class="username camp">@ViewData["Username"]:    </span>
+            <input class="username-input" asp-for="Username" type="text" required autofocus placeholder=" Introduceti numele de autentificare" /><br /><br /><br />
+            <span class="pass camp">@ViewData["Password"]:    </span>
+            <input class="pass-input" asp-for="Password" type="password" required placeholder=" Introduceti parola" /><br /><br /><br />
+            <button class="buton" type="submit">Continuă</button>
+        </form>
+        <h4><a asp-controller="Home" asp-action="ForgotPassword">Resetare parola</a></h4>
+    </center>
+</div>

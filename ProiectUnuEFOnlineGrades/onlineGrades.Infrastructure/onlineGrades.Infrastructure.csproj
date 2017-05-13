@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.1\lib\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -38,10 +42,19 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MailKit, Version=1.16.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailKit.1.16.0\lib\net451\MailKit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MimeKit, Version=1.16.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.1.16.0\lib\net451\MimeKit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Security" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows" />
     <Reference Include="System.Xml.Linq" />
@@ -53,9 +66,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business\ILoginBusiness.cs" />
+    <Compile Include="Business\IMailBusiness.cs" />
     <Compile Include="Business\impl\LoginBusiness.cs" />
+    <Compile Include="Business\impl\MailBusiness.cs" />
     <Compile Include="Business\impl\RegisterBusiness.cs" />
+    <Compile Include="Business\impl\ResetPasswordBusiness.cs" />
     <Compile Include="Business\IRegisterBusiness.cs" />
+    <Compile Include="Business\IResetPassworBusiness.cs" />
     <Compile Include="Configuration\EF Configuration\DataBaseManagement.cs" />
     <Compile Include="Migrations\201703171406252_first.cs" />
     <Compile Include="Migrations\201703171406252_first.Designer.cs">

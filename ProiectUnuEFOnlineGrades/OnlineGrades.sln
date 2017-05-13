@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onlineGrades.WCF", "onlineG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProiectDoiWCFOnlineGrades", "ProiectDoiWCFOnlineGrades\ProiectDoiWCFOnlineGrades.csproj", "{085DEA7D-CAE4-44F4-8A38-EF12038A9D6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onlineGrades.MVC", "onlineGrades.MVC\onlineGrades.MVC.csproj", "{F422375E-FDC4-4316-A7B3-A3DA2984E0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onlineGrades.WPF", "onlineGrades.WPF\onlineGrades.WPF.csproj", "{4239929B-0314-4101-A2E6-3C483A3DCB54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{085DEA7D-CAE4-44F4-8A38-EF12038A9D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{085DEA7D-CAE4-44F4-8A38-EF12038A9D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{085DEA7D-CAE4-44F4-8A38-EF12038A9D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F422375E-FDC4-4316-A7B3-A3DA2984E0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F422375E-FDC4-4316-A7B3-A3DA2984E0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F422375E-FDC4-4316-A7B3-A3DA2984E0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F422375E-FDC4-4316-A7B3-A3DA2984E0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4239929B-0314-4101-A2E6-3C483A3DCB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4239929B-0314-4101-A2E6-3C483A3DCB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4239929B-0314-4101-A2E6-3C483A3DCB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4239929B-0314-4101-A2E6-3C483A3DCB54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
