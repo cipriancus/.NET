@@ -55,6 +55,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="resetare.xaml.cs">
+      <DependentUpon>resetare.xaml</DependentUpon>
+    </Compile>
+    <Page Include="autentificare.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="inregistrare.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -63,10 +78,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="autentificare.xaml.cs">
+      <DependentUpon>autentificare.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="inregistrare.xaml.cs">
+      <DependentUpon>inregistrare.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="main.xaml.cs">
+      <DependentUpon>main.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="resetare.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -94,6 +122,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\onlineGrades.Core\onlineGrades.Core.csproj">
+      <Project>{33401364-57f7-4411-957c-270188bc4ee1}</Project>
+      <Name>onlineGrades.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\onlineGrades.Infrastructure\onlineGrades.Infrastructure.csproj">
+      <Project>{ef9174f5-0c4e-4e9e-9f0d-e62f1df2b54c}</Project>
+      <Name>onlineGrades.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

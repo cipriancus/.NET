@@ -16,15 +16,25 @@ using System.Windows.Shapes;
 namespace onlineGrades.WPF
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for main.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class main : Page
     {
-        public MainWindow()
+        public main()
         {
             InitializeComponent();
-            main main1 = new main();
-            myframe.NavigationService.Navigate(main1);
         }
+
+        private void autentificare_click(object sender, RoutedEventArgs e)
+        {
+            autentificare auth = new WPF.autentificare();
+            this.NavigationService.Navigate(auth);
+        }
+
+        private void register_click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
 }

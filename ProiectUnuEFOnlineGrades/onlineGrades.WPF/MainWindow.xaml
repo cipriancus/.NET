@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:onlineGrades.WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid Background="Gray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="27*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="219*"/>
+        </Grid.ColumnDefinitions>
+        <Frame x:Name="myframe" Grid.ColumnSpan="2" Content="" Margin="0,0,0.4,0.291" Grid.RowSpan="2" NavigationUIVisibility="Hidden"/>
+
     </Grid>
 </Window>

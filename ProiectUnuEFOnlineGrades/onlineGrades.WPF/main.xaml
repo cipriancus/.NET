@@ -1,0 +1,26 @@
+﻿<Page x:Class="onlineGrades.WPF.main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:onlineGrades.WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="539.891"
+      Title="main">
+
+    <Grid Margin="0,0,0.218,0.218" Background="Gray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="autentificare" Content="Autentificare;" HorizontalAlignment="Left" Margin="330,16,0,0" VerticalAlignment="Top" Width="75" Height="29" Click="autentificare_click"/>
+        <Button x:Name="register" Content="Inregistrare" HorizontalAlignment="Left" Margin="435,16,0,0" VerticalAlignment="Top" Width="75" Height="29" Click="register_click"/>
+        <Label x:Name="label" Content="Note Online FII&#xA;" HorizontalAlignment="Left" Margin="30,16,0,0" VerticalAlignment="Top" Width="95" Height="42"/>
+        <Label x:Name="label_Copy" Content="Bine ati venit !&#xA;&#xA;" HorizontalAlignment="Left" Margin="215,85,0,0" VerticalAlignment="Top" Width="95" Height="30" RenderTransformOrigin="0.523,1.347"/>
+
+    </Grid>
+</Page>
